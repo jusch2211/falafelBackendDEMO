@@ -12,8 +12,8 @@ public class FalafelRepository {
 
     public FalafelRepository() {
         // Demo-Daten
-        falafels.add(new Falafel(1L, "Klassische Falafel"));
-        falafels.add(new Falafel(2L, "Scharfe Falafel"));
+        falafels.add(new Falafel(1L, "Klassische Falafel frisch"));
+        falafels.add(new Falafel(2L, "Scharfe Falafel mit scharf"));
     }
 
     public List<Falafel> findAll() {
